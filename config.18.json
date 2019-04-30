@@ -1,0 +1,174 @@
+{
+  "IamFleetRole": "arn:aws:iam::971644952510:role/aws-ec2-spot-fleet-tagging-role",
+  "AllocationStrategy": "lowestPrice",
+  "TargetCapacity": 2,
+  "SpotPrice": "0.09",
+  "ValidFrom": "2019-02-20T07:31:59Z",
+  "ValidUntil": "2019-05-22T07:31:59Z",
+  "TerminateInstancesWithExpiration": true,
+  "LaunchSpecifications": [
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c5.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-838954ea",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c5.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3f5d5d75",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c5.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-a4fd1fdf",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c4.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-838954ea",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c4.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3f5d5d75",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-0c55b159cbfafe1f0",
+      "InstanceType": "c4.2xlarge",
+      "KeyName": "levsconnect",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "gp2",
+            "VolumeSize": 50,
+            "SnapshotId": "snap-0daed1f4239b15cea"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-a4fd1fdf",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-6a747002"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    }
+  ],
+  "Type": "request"
+}
